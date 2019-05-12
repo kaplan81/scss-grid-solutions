@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Scss Grid Solutions</title>
+    <link rel="icon" type="image/x-icon" href="pizza.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/reset.css"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/app.css" />
+  </head>
+  <body>
+    <div id="layout">
+      <header>
+        <h1>Scss Grid Solutions</h1>
+      </header>
+      <aside class="hidden-md-down"></aside>
+      <main>
+        <h2>grid-12</h2>
+        <div class="grid-12">
+          <div class="col-12 col-md-3">col-12 col-md-3</div>
+          <div class="col-4 col-md-3">col-4 col-md-3</div>
+          <div class="col-4 col-md-3">col-4 col-md-3</div>
+          <div class="col-4 col-md-3">col-4 col-md-3</div>
+        </div>
+        <h2>grid-10</h2>
+        <div class="grid-10">
+          <div class="col-10 col-md-5">col-10 col-md-5</div>
+          <div class="col-5 col-md-2">col-5 col-md-2</div>
+          <div class="col-5 col-md-3">col-5 col-md-3</div>
+        </div>
+        <h2>Grid with spanning row items if media is smaller-than XL</h2>
+        <div class="grid-panels-example">
+          <div class="panel">Panel A</div>
+          <div class="panel">Panel B</div>
+          <div class="panel tall-panel">Panel C</div>
+          <div class="panel">Panel D</div>
+          <div class="panel">Panel E</div>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>

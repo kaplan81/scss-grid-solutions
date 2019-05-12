@@ -1,0 +1,14 @@
+{
+  "name": "scss-grid-solutions",
+  "version": "1.0.0",
+  "description": "Sample project on how to create your own css layout framework with Sass by using the CSS Grid specification.",
+  "scripts": {
+    "start": "npm run sass:w",
+    "clean:css": "rm -rf ./css/*",
+    "sass": "npm run clean:css && sass scss:css --no-source-map",
+    "sass:w": "npm run clean:css && sass scss:css --no-source-map --watch"
+  },
+  "dependencies": {
+    "sass": "^1.17.4"
+  }
+}
