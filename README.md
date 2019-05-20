@@ -26,7 +26,7 @@ The `scss` folder is compiled to the `css` one.
 - \*rules
 - variables
 
-\*"rules" are utility classes to be declared on our templates.
+\*"rules" are just utility classes to be declared on our templates.
 
 ## Grid Framework
 
